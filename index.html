@@ -1,40 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Decorative Laminate Sheets for Modern Interiors | Laminate Cloud</title>
+    <title>
+        Decorative Laminate Sheets for Modern Interiors | Laminate Cloud
+    </title>
 
-    <meta name="description"
-          content="Explore decorative laminate sheets from Laminate Cloud, including woodgrain, marble, matte, canvas and ombre laminates for modern kitchens, wardrobes, furniture and interiors.">
+    <meta
+        name="description"
+        content="Explore decorative laminate sheets from Laminate Cloud, including woodgrain, marble, stone, matte, glossy, canvas, fluted and ombre laminates for modern interiors."
+    >
 
-    <link rel="canonical" href="https://laminatecloud.com/">
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <link
+        rel="canonical"
+        href="https://laminatecloud.com/"
+    >
+
+    <link
+        rel="icon"
+        href="/favicon.ico"
+    >
 
     <!-- Open Graph -->
-    <meta property="og:title"
-          content="Decorative Laminate Sheets for Modern Interiors | Laminate Cloud">
+    <meta
+        property="og:title"
+        content="Decorative Laminate Sheets for Modern Interiors | Laminate Cloud"
+    >
 
-    <meta property="og:description"
-          content="Discover modern decorative laminates including woodgrain, marble, matte, canvas and ombre finishes for interior projects.">
+    <meta
+        property="og:description"
+        content="Discover modern decorative laminates including woodgrain, marble, stone, matte, glossy, canvas, fluted and ombre finishes."
+    >
 
-    <meta property="og:url" content="https://laminatecloud.com/">
+    <meta
+        property="og:url"
+        content="https://laminatecloud.com/"
+    >
 
-    <meta property="og:type" content="website">
+    <meta
+        property="og:type"
+        content="website"
+    >
 
-    <meta property="og:site_name" content="Laminate Cloud">
+    <meta
+        property="og:site_name"
+        content="Laminate Cloud"
+    >
 
-    <!-- Robots -->
-    <meta name="robots" content="index, follow">
-
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico">
-
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://images.unsplash.com">
+    <!-- Performance -->
+    <link
+        rel="preconnect"
+        href="https://images.unsplash.com"
+    >
 
     <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -42,6 +79,8 @@
             color: #222;
             line-height: 1.6;
         }
+
+        /* Header */
 
         header {
             background: #111;
@@ -59,9 +98,11 @@
             margin: 5px 0 0;
         }
 
+        /* Navigation */
+
         nav {
             background: #222;
-            padding: 12px;
+            padding: 12px 20px;
             text-align: center;
         }
 
@@ -69,56 +110,112 @@
             color: #fff;
             margin: 0 15px;
             text-decoration: none;
+            font-weight: 500;
         }
 
         nav a:hover {
             text-decoration: underline;
         }
 
+        /* Hero */
+
         .hero {
             background:
                 linear-gradient(
-                    rgba(0,0,0,0.45),
-                    rgba(0,0,0,0.45)
+                    rgba(0, 0, 0, 0.48),
+                    rgba(0, 0, 0, 0.48)
                 ),
                 url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6')
                 center / cover no-repeat;
 
-            color: white;
-            padding: 100px 20px;
+            color: #fff;
+            padding: 110px 20px;
             text-align: center;
         }
 
         .hero h2 {
-            font-size: 42px;
-            margin: 0 auto 15px;
-            max-width: 850px;
+            font-size: 44px;
+            line-height: 1.2;
+            margin: 0 auto 20px;
+            max-width: 900px;
         }
 
         .hero p {
             font-size: 20px;
-            max-width: 700px;
-            margin: 0 auto 20px;
+            max-width: 750px;
+            margin: 0 auto 25px;
         }
+
+        /* Main Container */
 
         .container {
             max-width: 1100px;
             margin: auto;
-            padding: 40px 20px;
+            padding: 45px 20px;
         }
 
         .section {
-            margin-bottom: 45px;
+            margin-bottom: 55px;
         }
 
         .section h2 {
             font-size: 30px;
-            margin-bottom: 10px;
+            line-height: 1.3;
+            margin-bottom: 12px;
         }
 
         .section-intro {
-            max-width: 800px;
+            max-width: 850px;
         }
+
+        /* Buttons */
+
+        .btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 18px;
+            background: #111;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background: #333;
+        }
+
+        /* Categories */
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit,
+                minmax(200px, 1fr)
+            );
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .category {
+            display: block;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #222;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: 0.2s ease;
+        }
+
+        .category:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+        }
+
+        /* Products */
 
         .products {
             display: grid;
@@ -131,15 +228,15 @@
         }
 
         .product {
-            background: white;
+            background: #fff;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
         }
 
         .product img {
             width: 100%;
-            height: 180px;
+            height: 190px;
             object-fit: cover;
             display: block;
         }
@@ -149,23 +246,15 @@
         }
 
         .product h3 {
-            margin-top: 0;
+            margin: 0 0 10px;
+            font-size: 21px;
         }
 
-        .btn {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 9px 16px;
-            background: #111;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 14px;
+        .product p {
+            margin: 0;
         }
 
-        .btn:hover {
-            background: #333;
-        }
+        /* Ombre */
 
         .ombre-section {
             background: linear-gradient(
@@ -174,56 +263,70 @@
                 #dcdcdc
             );
 
-            padding: 40px 30px;
+            padding: 45px 30px;
             border-radius: 10px;
-            margin-bottom: 45px;
+            margin-bottom: 55px;
         }
 
-        .categories {
-            display: grid;
-            grid-template-columns: repeat(
-                auto-fit,
-                minmax(180px, 1fr)
-            );
-
-            gap: 15px;
-            margin-top: 20px;
+        .ombre-section h2 {
+            margin-top: 0;
+            font-size: 30px;
         }
 
-        .category {
+        /* Applications */
+
+        .application {
             background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #222;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 15px;
         }
 
-        .category:hover {
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        .application h3 {
+            margin-top: 0;
         }
+
+        /* FAQ */
 
         .faq {
-            background: white;
-            padding: 20px;
-            margin-top: 12px;
+            background: #fff;
+            padding: 22px;
+            margin-top: 15px;
             border-radius: 8px;
         }
+
+        .faq h3 {
+            margin-top: 0;
+        }
+
+        /* Footer */
 
         footer {
             background: #111;
             color: #ccc;
             text-align: center;
-            padding: 25px 20px;
+            padding: 30px 20px;
         }
 
         footer a {
             color: #fff;
+            text-decoration: none;
         }
 
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile */
+
         @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 26px;
+            }
+
             .hero {
-                padding: 70px 20px;
+                padding: 75px 20px;
             }
 
             .hero h2 {
@@ -235,12 +338,21 @@
             }
 
             nav a {
-                margin: 0 7px;
+                display: inline-block;
+                margin: 5px 7px;
             }
+
+            .section h2 {
+                font-size: 26px;
+            }
+
         }
+
     </style>
 
+
     <!-- Organization Schema -->
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -252,7 +364,9 @@
     }
     </script>
 
-    <!-- WebSite Schema -->
+
+    <!-- Website Schema -->
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -264,14 +378,26 @@
 
 </head>
 
+
 <body>
 
+
+<!-- Header -->
+
 <header>
-    <div class="container" style="padding: 0;">
-        <p>Laminate Cloud</p>
-        <p>Decorative Laminates for Modern Interiors</p>
-    </div>
+
+    <h1>
+        Laminate Cloud
+    </h1>
+
+    <p>
+        Decorative Laminates for Modern Interiors
+    </p>
+
 </header>
+
+
+<!-- Navigation -->
 
 <nav aria-label="Main navigation">
 
@@ -280,7 +406,7 @@
     </a>
 
     <a href="https://laminatecloud.com/shop">
-        Decorative Laminates
+        Shop Laminates
     </a>
 
     <a href="https://laminatecloud.com/category">
@@ -293,19 +419,23 @@
 
 </nav>
 
+
 <main>
 
+
     <!-- Hero -->
+
     <section class="hero">
 
-        <h1>
+        <h2>
             Decorative Laminate Sheets for Modern Interiors
-        </h1>
+        </h2>
 
         <p>
             Explore modern laminate designs including woodgrain,
-            marble, matte, stone, canvas and ombre finishes for
-            kitchens, wardrobes, furniture and interior spaces.
+            marble, stone, matte, glossy, canvas, fluted and
+            ombre finishes for kitchens, wardrobes, furniture
+            and interior spaces.
         </p>
 
         <a
@@ -321,7 +451,9 @@
 
     <div class="container">
 
+
         <!-- Introduction -->
+
         <section class="section">
 
             <h2>
@@ -332,90 +464,107 @@
                 Laminate Cloud offers a collection of decorative
                 laminate sheets designed for contemporary interiors.
                 Choose from different colours, patterns, textures
-                and surface finishes to create distinctive furniture,
-                wardrobes, kitchens, wall panels and other interior
-                applications.
+                and surface finishes for furniture, wardrobes,
+                kitchens, wall panels and other interior applications.
             </p>
 
         </section>
 
 
-        <!-- Product Categories -->
+        <!-- Laminate Categories -->
+
         <section class="section">
 
             <h2>
                 Explore Laminate Categories
             </h2>
 
-            <p>
-                Find laminate designs by finish, texture and visual
-                style.
+            <p class="section-intro">
+                Browse decorative laminate sheets by finish,
+                texture and design style.
             </p>
+
 
             <div class="categories">
 
+
+                <!-- Wooden -->
+
                 <a
                     class="category"
-                    href="https://laminatecloud.com/category"
+                    href="https://laminatecloud.com/category/wooden-laminates"
                 >
                     Woodgrain Laminates
                 </a>
 
+
+                <!-- Marble -->
+
                 <a
                     class="category"
-                    href="https://laminatecloud.com/category"
+                    href="https://laminatecloud.com/category/marble-laminates"
                 >
                     Marble Laminates
                 </a>
 
+
+                <!-- Stone -->
+
                 <a
                     class="category"
-                    href="https://laminatecloud.com/category"
+                    href="https://laminatecloud.com/category/stone-laminates"
                 >
                     Stone Laminates
                 </a>
 
-                <a
-                    class="category"
-                    href="https://laminatecloud.com/category"
-                >
-                    Matte Laminates
-                </a>
+
+                <!-- Glossy -->
 
                 <a
                     class="category"
-                    href="https://laminatecloud.com/category"
+                    href="https://laminatecloud.com/category/glossy-laminates"
+                >
+                    Glossy Laminates
+                </a>
+
+
+                <!-- Fluted -->
+
+                <a
+                    class="category"
+                    href="https://laminatecloud.com/category/fluted-laminates"
                 >
                     Fluted Laminates
                 </a>
 
+
+                <!-- Ombre -->
+
                 <a
                     class="category"
-                    href="https://laminatecloud.com/category"
+                    href="https://laminatecloud.com/category/ombre-laminates"
                 >
                     Ombre Laminates
                 </a>
 
+
+                <!-- Canvas -->
+
                 <a
                     class="category"
-                    href="https://laminatecloud.com/category"
+                    href="https://laminatecloud.com/category/canvas-collection"
                 >
                     Canvas Laminates
                 </a>
 
-                <a
-                    class="category"
-                    href="https://laminatecloud.com/category"
-                >
-                    Glossy Laminates
-                </a>
 
             </div>
 
         </section>
 
 
-        <!-- Featured Products -->
+        <!-- Featured Laminates -->
+
         <section class="section">
 
             <h2>
@@ -423,13 +572,16 @@
             </h2>
 
             <p class="section-intro">
-                Explore popular laminate styles for furniture,
-                wardrobes, kitchens, TV units and modern interior
+                Explore popular laminate styles for wardrobes,
+                furniture, kitchens, TV units and modern interior
                 projects.
             </p>
 
+
             <div class="products">
 
+
+                <!-- Wooden Laminate -->
 
                 <article class="product">
 
@@ -455,7 +607,7 @@
 
                         <a
                             class="btn"
-                            href="https://laminatecloud.com/shop"
+                            href="https://laminatecloud.com/category/wooden-laminates"
                         >
                             View Wood Laminates
                         </a>
@@ -465,11 +617,13 @@
                 </article>
 
 
+                <!-- Marble Laminate -->
+
                 <article class="product">
 
                     <img
                         src="https://laminatecloud.com/storage/laminates/gallery/Uic5wRr9HjfqM6Xkikbt7DECAuixnvkXI1hbcIWG.png"
-                        alt="Marble finish decorative laminate sheet for interiors"
+                        alt="Marble finish decorative laminate sheet for modern interiors"
                         loading="lazy"
                         width="600"
                         height="450"
@@ -483,13 +637,13 @@
 
                         <p>
                             Marble-inspired decorative surfaces for
-                            elegant kitchens, furniture, walls and
-                            modern interior spaces.
+                            kitchens, furniture, walls and modern
+                            interior spaces.
                         </p>
 
                         <a
                             class="btn"
-                            href="https://laminatecloud.com/shop"
+                            href="https://laminatecloud.com/category/marble-laminates"
                         >
                             View Marble Laminates
                         </a>
@@ -498,6 +652,8 @@
 
                 </article>
 
+
+                <!-- Matte Laminate -->
 
                 <article class="product">
 
@@ -516,13 +672,14 @@
                         </h3>
 
                         <p>
-                            Soft, low-reflection laminate surfaces for
-                            clean and understated interior designs.
+                            Soft, low-reflection laminate surfaces
+                            for clean and understated interior
+                            designs.
                         </p>
 
                         <a
                             class="btn"
-                            href="https://laminatecloud.com/shop"
+                            href="https://laminatecloud.com/category/matte-laminates"
                         >
                             View Matte Laminates
                         </a>
@@ -531,6 +688,8 @@
 
                 </article>
 
+
+                <!-- Canvas Laminate -->
 
                 <article class="product">
 
@@ -549,14 +708,14 @@
                         </h3>
 
                         <p>
-                            Textured canvas-inspired designs that add
-                            visual depth and character to interior
+                            Textured canvas-inspired designs that
+                            add visual depth and character to interior
                             surfaces.
                         </p>
 
                         <a
                             class="btn"
-                            href="https://laminatecloud.com/shop"
+                            href="https://laminatecloud.com/category/canvas-collection"
                         >
                             View Canvas Laminates
                         </a>
@@ -565,12 +724,14 @@
 
                 </article>
 
+
             </div>
 
         </section>
 
 
-        <!-- Ombre -->
+        <!-- Ombre Section -->
+
         <section class="ombre-section">
 
             <h2>
@@ -598,7 +759,7 @@
 
             <a
                 class="btn"
-                href="https://laminatecloud.com/shop"
+                href="https://laminatecloud.com/category/ombre-laminates"
             >
                 Explore Ombre Laminates
             </a>
@@ -607,67 +768,86 @@
 
 
         <!-- Applications -->
+
         <section class="section">
 
             <h2>
                 Laminate Applications
             </h2>
 
-            <p>
+            <p class="section-intro">
                 Decorative laminates can be used across a wide
-                range of interior applications.
+                range of interior applications. Choose a suitable
+                laminate based on the surface, design requirements
+                and product specifications.
             </p>
 
-            <div class="categories">
 
-                <a
-                    class="category"
-                    href="https://laminatecloud.com/shop"
-                >
+            <div class="application">
+
+                <h3>
                     Kitchen Cabinets
-                </a>
+                </h3>
 
-                <a
-                    class="category"
-                    href="https://laminatecloud.com/shop"
-                >
-                    Wardrobes
-                </a>
-
-                <a
-                    class="category"
-                    href="https://laminatecloud.com/shop"
-                >
-                    Furniture
-                </a>
-
-                <a
-                    class="category"
-                    href="https://laminatecloud.com/shop"
-                >
-                    TV Units
-                </a>
-
-                <a
-                    class="category"
-                    href="https://laminatecloud.com/shop"
-                >
-                    Wall Panels
-                </a>
-
-                <a
-                    class="category"
-                    href="https://laminatecloud.com/shop"
-                >
-                    Office Interiors
-                </a>
+                <p>
+                    Use decorative laminate finishes to create
+                    contemporary kitchen cabinet surfaces with
+                    wood, marble, matte, stone and other designs.
+                </p>
 
             </div>
+
+
+            <div class="application">
+
+                <h3>
+                    Wardrobes
+                </h3>
+
+                <p>
+                    Woodgrain, matte, glossy and ombre laminates
+                    can be used to create different wardrobe
+                    styles for bedrooms and dressing areas.
+                </p>
+
+            </div>
+
+
+            <div class="application">
+
+                <h3>
+                    Furniture
+                </h3>
+
+                <p>
+                    Decorative laminate sheets can add colour,
+                    texture and visual character to tables,
+                    cabinets and other furniture surfaces.
+                </p>
+
+            </div>
+
+
+            <div class="application">
+
+                <h3>
+                    TV Units and Wall Panels
+                </h3>
+
+                <p>
+                    Marble, stone, woodgrain and fluted-inspired
+                    finishes can be used for TV units, feature
+                    walls and other interior surfaces.
+                </p>
+
+            </div>
+
 
         </section>
 
 
         <!-- Buying Guide -->
+
         <section class="section">
 
             <h2>
@@ -675,8 +855,8 @@
             </h2>
 
             <p class="section-intro">
-                Learn how to choose laminate sheets based on
-                finish, appearance, application and interior
+                Learn how to choose laminate sheets based on finish,
+                appearance, application, thickness and interior
                 requirements.
             </p>
 
@@ -691,11 +871,13 @@
 
 
         <!-- FAQ -->
+
         <section class="section">
 
             <h2>
-                Frequently Asked Questions
+                Frequently Asked Questions About Laminates
             </h2>
+
 
             <div class="faq">
 
@@ -743,12 +925,32 @@
 
             </div>
 
+
+            <div class="faq">
+
+                <h3>
+                    How do I choose the right laminate?
+                </h3>
+
+                <p>
+                    Choose a laminate based on the intended
+                    application, design preference, surface finish,
+                    colour, texture, thickness and the manufacturer's
+                    product specifications.
+                </p>
+
+            </div>
+
+
         </section>
+
 
     </div>
 
 </main>
 
+
+<!-- Footer -->
 
 <footer>
 
@@ -757,20 +959,34 @@
     </p>
 
     <p>
+
         <a href="https://laminatecloud.com/">
             Laminate Cloud
         </a>
-        |
+
+        &nbsp; | &nbsp;
+
         <a href="https://laminatecloud.com/shop">
             Shop Laminates
         </a>
-        |
+
+        &nbsp; | &nbsp;
+
+        <a href="https://laminatecloud.com/category">
+            Categories
+        </a>
+
+        &nbsp; | &nbsp;
+
         <a href="https://laminatecloud.com/blog">
             Laminate Guides
         </a>
+
     </p>
 
 </footer>
 
+
 </body>
+
 </html>
