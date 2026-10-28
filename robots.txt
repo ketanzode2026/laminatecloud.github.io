@@ -1,0 +1,6 @@
+# Robots.txt for Laminate Cloud GitHub Pages Mirror / Staging Repository
+# Purpose: Prevent search engines from indexing this copy and harming https://laminatecloud.com SEO.
+
+User-agent: *
+Disallow: /
+

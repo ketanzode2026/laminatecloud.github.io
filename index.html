@@ -16,8 +16,30 @@
         content="laminate sheets, decorative laminates, 1mm laminate sheets, buy laminates online, kitchen laminate, wardrobe laminate sheets, acrylic laminate sheet, fluted laminate, marble laminate sheets, woodgrain laminate, matte laminates, ombre laminates, laminate cloud, interior surface sheets">
     <meta name="author" content="Laminate Cloud">
     <meta name="publisher" content="Laminate Cloud">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- ==============================================
+         DUPLICATE CONTENT & SEO SHIELD:
+         This is a GitHub repository/mirror. To protect https://laminatecloud.com
+         from duplicate content penalties and keyword cannibalization, this copy
+         is strictly set to "noindex, nofollow".
+         (Note: If deploying directly to https://laminatecloud.com domain, revert to "index, follow")
+    =============================================== -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
     <link rel="canonical" href="https://laminatecloud.com/">
+
+    <!-- Automatic Canonical Redirect:
+         Instantly redirects visitors from GitHub Pages (*.github.io) to the official website -->
+    <script>
+        (function () {
+            var host = window.location.hostname;
+            if (host.includes('github.io')) {
+                window.location.replace('https://laminatecloud.com/');
+            }
+        })();
+    </script>
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=https://laminatecloud.com/">
+    </noscript>
 
     <!-- Google Site Verification -->
     <meta name="google-site-verification" content="google0cbfdc3329b7e886">
